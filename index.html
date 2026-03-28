@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="theme.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <button id="theme-toggle" aria-label="Alternar tema">🌙</button>
+    </header>
+
+    <main>
+      <h1>Quem está assistindo?</h1>
+      <section class="profiles" aria-label="Seleção de perfis">
+        <ul class="profiles-shell">
+          <li>
+            <ol class="profiles-list">
+              <li class="profile">
+                <a
+                  href="catalogo/catalogo.html"
+                  aria-label="Perfil 1"
+                  data-profile="Levi"
+                >
+                  <figure>
+                    <img src="/assets/perfil1.jpg" alt="Avatar do Perfil 1" />
+                    <figcaption>Levi</figcaption>
+                  </figure>
+                </a>
+              </li>
+
+              <li class="profile">
+                <a
+                  href="catalogo/catalogo.html"
+                  aria-label="Perfil 2"
+                  data-profile="Nic"
+                >
+                  <figure>
+                    <img src="/assets/perfil2.jpg" alt="Avatar do Perfil 2" />
+                    <figcaption>Nic</figcaption>
+                  </figure>
+                </a>
+              </li>
+
+              <li class="profile">
+                <a
+                  href="catalogo/catalogo.html"
+                  aria-label="Perfil 3"
+                  data-profile="GB"
+                >
+                  <figure>
+                    <img src="/assets/perfil3.jpg" alt="Avatar do Perfil 3" />
+                    <figcaption>GB</figcaption>
+                  </figure>
+                </a>
+              </li>
+
+              <li class="profile">
+                <a
+                  href="catalogo/catalogo.html"
+                  aria-label="Perfil 4"
+                  data-profile="Maria"
+                >
+                  <figure>
+                    <img src="/assets/perfil4.jpg" alt="Avatar do Perfil 4" />
+                    <figcaption>Maria</figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer aria-hidden="true"></footer>
+  </body>
+</html>
